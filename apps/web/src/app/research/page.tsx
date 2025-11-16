@@ -88,6 +88,15 @@ export default function ResearchPage() {
               </p>
               <p className="text-sm text-blue-600">Explore Metabolism →</p>
             </Link>
+
+            <Link href="/podcasts" className="p-6 border rounded-lg hover:shadow-lg transition-shadow bg-gradient-to-br from-blue-50 to-purple-50">
+              <h3 className="text-xl font-semibold mb-2">🎙️ Podcast References</h3>
+              <p className="text-gray-600 mb-4">
+                Curated podcast episodes from Huberman Lab, Peter Attia, Lex Fridman,
+                and more discussing genetics and neuroscience.
+              </p>
+              <p className="text-sm text-blue-600">Listen & Learn →</p>
+            </Link>
           </div>
         </section>
 
