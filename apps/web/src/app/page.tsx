@@ -31,7 +31,7 @@ export default function Home() {
 
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">Get Started</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link href="/upload" className="p-6 border rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-2">Upload Genome</h3>
               <p className="text-gray-600">
@@ -50,6 +50,13 @@ export default function Home() {
               <h3 className="text-xl font-semibold mb-2">Environmental Factors</h3>
               <p className="text-gray-600">
                 Track how diet, environment, and lifestyle affect genetic expression
+              </p>
+            </Link>
+
+            <Link href="/research" className="p-6 border rounded-lg hover:shadow-lg transition-shadow bg-blue-50">
+              <h3 className="text-xl font-semibold mb-2">Research Databases</h3>
+              <p className="text-gray-600">
+                Explore comprehensive genetic adaptations and scientific research
               </p>
             </Link>
           </div>
