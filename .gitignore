@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+*.log
+
+# Next.js
+.next/
+out/
+build
+dist/
+
+# Production
+*.tsbuildinfo
+.turbo
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env*.local
+.env.development
+.env.production
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+
+# Genetic data (sensitive)
+uploads/
+genetic-data/
+*.vcf
+*.bam
+*.fastq
+*.fasta
+*.23andme
+*.ancestry
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
